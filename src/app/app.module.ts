@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { routing } from './app.routing';
+import { AuthGuard } from './auth-guard.service'
 
 import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
@@ -19,7 +20,7 @@ import { DemoComponent } from './demo/demo.component';
     HttpModule,
     routing
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
