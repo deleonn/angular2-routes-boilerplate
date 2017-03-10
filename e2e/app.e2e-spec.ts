@@ -1,10 +1,10 @@
-import { Angular2RoutesBootstrapPage } from './app.po';
+import { Angular2RoutesBoilerplatePage } from './app.po';
 
-describe('angular2-routes-bootstrap App', function() {
-  let page: Angular2RoutesBootstrapPage;
+describe('angular2-routes-boilerplate App', function() {
+  let page: Angular2RoutesBoilerplatePage;
 
   beforeEach(() => {
-    page = new Angular2RoutesBootstrapPage();
+    page = new Angular2RoutesBoilerplatePage();
   });
 
   it('should display message saying app works', () => {
